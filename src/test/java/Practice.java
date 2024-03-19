@@ -43,7 +43,8 @@ public class Practice {
 
         driver.findElement(By.xpath(" //input[@id='email']")).click();
         driver.findElement(By.xpath(" //input[@id='email']")).sendKeys("saraff.razib@gmail.com");
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Razib123@");
+        driver.findElement(By.xpath(
+                "//input[@id='password']")).sendKeys("Razib123@");
         driver.findElement(By.xpath(" //button[contains(text(),'Sign In')]")).click();
         driver.findElement(By.xpath("//tbody/tr[8]/td[8]/button[1]")).click();
 //        driver.findElement(By.xpath("//span[c" +
@@ -51,21 +52,23 @@ public class Practice {
 //     driver.findElement(By.xpath("//span[contains(text(),'PC/Laptop/Tablet View')]")).click();
 driver.findElement(By.xpath("//span[contains(text(),'Employee Management')]")).click();
 driver.findElement(By.xpath("//span[contains(text(),'Add Employee')]")).click();
-driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/input[1]")).sendKeys("ViratShakibj Hossain");
+driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/input[1]")).sendKeys("Robin Hossain");
 driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/input[1]")).sendKeys("017113906");
 driver.findElement(By.xpath("//input[@id='salary']")).sendKeys("5000");
 driver.findElement(By.xpath("//textarea[@id='address']")).sendKeys("Dhanmondi");
-driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/d                                                                                                                                                                                                                                                                                                           iv[3]/input[1]")).sendKeys("viratkkjjhk.rzsaaib@yahoo.com");
+driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/d                                                                                                                                                                                                                                                                                                           " +
+        "" +
+        "iv[3]/input[1]")).sendKeys("viratkkjjhk.rzsaaib@yahoo.com");
 driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Razib123@");
 driver.findElement(By.xpath("//input[@id='POS']")).click();
 driver.findElement(By.xpath("//span[contains(text(),'Save')]")).click();
 driver.findElement(By.xpath("//button[contains(text(),'×')]")).click();
 driver.findElement(By.xpath("//span[contains(text(),'Employee List')]")).click();
-driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/input[1]")).sendKeys("Accbftf10rac Def");
+driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/input[1]")).sendKeys("Robiny Def");
 driver.findElement(By.xpath("//span[contains(text(),'Food Management')]")).click();
 driver.findElement(By.xpath("//span[contains(text(),'Manage Add-ons')]")).click();
 driver.findElement(By.xpath("//span[contains(text(),'Add Add-ons')]")).click();
-driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/input[1]")).sendKeys("Lacckkhy-Dew");
+driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/input[1]")).sendKeys("RObinn-Dew");
 driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/input[1]")).sendKeys("100");
 driver.findElement(By.xpath("//span[contains(text(),'Save')]")).click();
 driver.findElement(By.xpath("//span[contains(text(),'Addons List')]")).click();
@@ -73,7 +76,7 @@ driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2
 driver.findElement(By.xpath("//span[contains(text(),'Settings')]")).click();
 driver.findElement(By.xpath("//span[contains(text(),'Restaurant Setting')]")).click();
 driver.findElement(By.xpath("//textarea[@id='input-field']")).sendKeys("Basundhara R/a");
-driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/input[1]")).sendKeys("Kolkkata Kabab");
+driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/input[1]")).sendKeys("Robin Kabab");
 
 driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[6]/input[1]")).sendKeys("011487485485");
 driver.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[5]/div[1]/input[1]")).sendKeys("Uttara");
